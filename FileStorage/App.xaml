@@ -4,6 +4,20 @@
              xmlns:local="clr-namespace:FileStorage"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ImageBrush x:Key="GradientBackground" ImageSource="/Assets/bg.jpg"/>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground"  Value="Black" />
+            <Setter Property="Background"  Value="#a2f2f3" />
+        </Style>
+        <Style TargetType="ListBox">
+            <Setter Property="Foreground"  Value="Black" />
+            <Setter Property="Background"  Value="#a2f2f3" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Foreground"  Value="White" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground"  Value="White" />
+        </Style>
     </Application.Resources>
 </Application>
